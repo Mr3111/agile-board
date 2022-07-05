@@ -1,4 +1,4 @@
-## Kanban Board [(Free version)](https://app-url.app/)
+## Agile Board 
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -6,11 +6,7 @@
 
 ## Page demo
 
-- [Dashboard](https://minimal-kit-react.vercel.app/dashboard/app)
-- [Product](https://minimal-kit-react.vercel.app/dashboard/products)
-- [Login](https://minimal-kit-react.vercel.app/login)
-- [Register](https://minimal-kit-react.vercel.app/register)
-- [Not Found](https://minimal-kit-react.vercel.app/404)
+- [Demo Link](https://agile-board-mr3111.vercel.app/login)
 
 ## Getting started
 

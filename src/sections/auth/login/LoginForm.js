@@ -53,8 +53,8 @@ export default function LoginForm() {
 
     const formik = useFormik({
         initialValues: {
-            username: '',
-            password: '',
+            username: 'bret@gmail.com',
+            password: '12345',
             remember: true,
         },
         validationSchema: LoginSchema,
