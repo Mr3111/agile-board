@@ -4,6 +4,7 @@ import {alpha, styled} from '@mui/material/styles';
 import {Card, Typography} from '@mui/material';
 import { useNavigate } from "react-router-dom";
 // utils
+import {useCallback} from "react";
 import {fShortenNumber} from '../../../utils/formatNumber';
 // components
 import Iconify from '../../../components/Iconify';
@@ -34,9 +35,9 @@ AppWidgetSummary.propTypes = {
 export default function AppWidgetSummary({title, total, icon, color = 'primary', sx, ...other}) {
     const navigate = useNavigate();
 
-    function handleClick() {
+    const handleClick = useCallback(() => {
         navigate("/dashboard/tasks");
-    }
+    }, []);
     return (
         <Card
             sx={{
